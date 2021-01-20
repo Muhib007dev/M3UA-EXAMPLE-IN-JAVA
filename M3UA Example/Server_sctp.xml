@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<servers>
+	<server name="testserver" started="true" hostAddress="127.0.0.1" hostPort="3434" ipChannelType="1" extraHostAddresseSize="0">
+		<associations>
+			<string value="serverAsscoiation"/>
+		</associations>
+	</server>
+</servers>
+<associations>
+	<name value="serverAsscoiation"/>
+	<association name="serverAsscoiation" assoctype="SERVER" hostPort="0" peerAddress="127.0.0.1" peerPort="2345" serverName="testserver" ipChannelType="1" extraHostAddresseSize="0"/>
+</associations>
